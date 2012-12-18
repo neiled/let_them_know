@@ -5,4 +5,6 @@ require 'motion/project'
 Motion::Project::App.setup do |app|
   # Use `rake config' to see complete project settings.
   app.name = 'let_them_know'
+  app.frameworks += ['AddressBookUI']
+    
 end
