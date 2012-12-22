@@ -20,5 +20,6 @@ class EmotionController < UIViewController
   def peoplePickerNavigationController(picker, shouldContinueAfterSelectingPerson: person)
     self.dismissModalViewControllerAnimated(true)
     @person = person
+    false
   end
 end
